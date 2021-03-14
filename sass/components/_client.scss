@@ -1,0 +1,35 @@
+.client-list {
+  display: flex;
+}
+
+.client-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 90px;
+  margin-right: 30px;
+  fill: $icon-color;
+  transition: fill 250ms $time-function;
+}
+
+.client-item:last-child {
+  margin-right: -30px;
+}
+
+.client-icon {
+  fill: currentColor;
+}
+
+.client-item:hover,
+.client-item:focus {
+  border: 1px solid $accent-color;
+  transition: border 250ms $time-function;
+}
+
+.client-icon:hover,
+.client-icon:focus {
+  fill: $accent-color;
+}

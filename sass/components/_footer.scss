@@ -1,0 +1,159 @@
+footer {
+  background-color: $third-bg-color;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.conteiner-footer {
+  display: flex;
+  align-items: baseline;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.logo-footer {
+  color: $title-text-color;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.link-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address-title {
+  color: $primary-bg-color;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.contact-title {
+  color: $secondary-text-color;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.footer-set {
+  margin: 0;
+
+  display: block;
+  min-width: 206px;
+}
+
+.set-title {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $primary-bg-color;
+}
+
+.set-list {
+  display: flex;
+  padding-top: 20px;
+  fill: $bg-icon;
+}
+
+.set-item {
+  margin-right: 10px;
+}
+
+.set-item:last-child {
+  margin-right: -10px;
+}
+
+.set-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  color: $primary-bg-color;
+  background-color: $bg-icon;
+  transition: color 250ms $time-function, background-color 250ms $time-function;
+}
+
+.set-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.set-link:hover,
+.set-link:focus {
+  background-color: $accent-color;
+}
+
+.title-footer {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $primary-bg-color;
+}
+
+.form-send input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: $back-dark;
+  padding-left: 15px;
+  width: 358px;
+  color: $white-text-op60;
+  font-size: 16px;
+  line-height: 1.25;
+  outline: none;
+}
+
+.form-send {
+  display: inline-flex;
+}
+
+.form-send {
+  height: 50px;
+  border: none;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.footer-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin-left: 12px;
+  width: 200px;
+  background-color: $accent-color;
+  color: $primary-bg-color;
+}
+
+.icon-send {
+  content: '';
+  display: inline-block;
+  margin-left: 10px;
+  fill: currentColor;
+}
