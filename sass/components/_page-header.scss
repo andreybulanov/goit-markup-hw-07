@@ -1,5 +1,10 @@
-.page-header {
+.header {
   border-bottom: 1px solid $border-color;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -15,20 +20,15 @@
   text-decoration: none;
 }
 
-.first-logo {
+.logo--web {
   color: $accent-color;
 }
 
-.second-logo {
-  color: $primary-bg-color;
-}
-
-.main-nav {
+.nav__list {
   display: flex;
-  align-items: center;
 }
 
-.site-nav .link {
+.nav__list .link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -42,11 +42,7 @@
   transition: color 250ms $time-function;
 }
 
-.site-nav {
-  display: flex;
-}
-
-.site-nav .item:not(:last-child) {
+.nav__list .item:not(:last-child) {
   margin-right: 50px;
   position: relative;
 }
