@@ -1,8 +1,8 @@
-.client-list {
+.client__list {
   display: flex;
 }
 
-.client-item {
+.client__item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,21 +15,21 @@
   transition: fill 250ms $time-function;
 }
 
-.client-item:last-child {
+.client__item:last-child {
   margin-right: -30px;
 }
 
-.client-icon {
+.client__icon {
   fill: currentColor;
 }
 
-.client-item:hover,
-.client-item:focus {
+.client__item:hover,
+.client__item:focus {
   border: 1px solid $accent-color;
   transition: border 250ms $time-function;
 }
 
-.client-icon:hover,
-.client-icon:focus {
+.client__icon:hover,
+.client__icon:focus {
   fill: $accent-color;
 }
