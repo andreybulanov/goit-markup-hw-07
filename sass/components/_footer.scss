@@ -6,7 +6,7 @@ footer {
   line-height: 1.71;
 }
 
-.conteiner-footer {
+.footer__conteiner {
   display: flex;
   align-items: baseline;
   width: 1200px;
@@ -20,7 +20,7 @@ footer {
   padding-top: 60px;
 }
 
-.logo-footer {
+.footer__logo {
   color: $title-text-color;
   font-family: Raleway;
   font-size: 26px;
@@ -28,7 +28,7 @@ footer {
   text-decoration: none;
 }
 
-.second-logo {
+.logo__studio {
   color: $primary-bg-color;
 }
 
@@ -36,11 +36,11 @@ footer {
   margin-top: 20px;
 }
 
-.link-item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.address-title {
+.address__link {
   color: $primary-bg-color;
   font-style: normal;
   font-weight: 400;
@@ -49,7 +49,7 @@ footer {
   text-decoration: none;
 }
 
-.contact-title {
+.contact__link {
   color: $secondary-text-color;
   font-style: normal;
   font-weight: 400;
@@ -58,14 +58,14 @@ footer {
   text-decoration: none;
 }
 
-.footer-set {
+.join {
   margin: 0;
 
   display: block;
   min-width: 206px;
 }
 
-.set-title {
+.join__title {
   margin: 0;
   font-size: 14px;
   line-height: 16px;
@@ -74,21 +74,21 @@ footer {
   color: $primary-bg-color;
 }
 
-.set-list {
+.join__list {
   display: flex;
   padding-top: 20px;
   fill: $bg-icon;
 }
 
-.set-item {
+.join__item {
   margin-right: 10px;
 }
 
-.set-item:last-child {
+.join__item:last-child {
   margin-right: -10px;
 }
 
-.set-link {
+.join__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,18 +100,18 @@ footer {
   transition: color 250ms $time-function, background-color 250ms $time-function;
 }
 
-.set-icon {
+.join__icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
 }
 
-.set-link:hover,
-.set-link:focus {
+.join__link:hover,
+.join__link:focus {
   background-color: $accent-color;
 }
 
-.title-footer {
+.send__title {
   display: block;
   margin-bottom: 20px;
   font-size: 14px;
@@ -121,7 +121,7 @@ footer {
   color: $primary-bg-color;
 }
 
-.form-send input {
+.send__form input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: $back-dark;
@@ -133,18 +133,15 @@ footer {
   outline: none;
 }
 
-.form-send {
+.send__form {
   display: inline-flex;
-}
-
-.form-send {
   height: 50px;
   border: none;
   font-size: 16px;
   line-height: 1.88;
 }
 
-.footer-button {
+.send__button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -155,7 +152,7 @@ footer {
   color: $primary-bg-color;
 }
 
-.icon-send {
+.send__icon {
   content: '';
   display: inline-block;
   margin-left: 10px;
