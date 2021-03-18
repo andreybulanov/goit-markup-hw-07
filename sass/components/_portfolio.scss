@@ -11,6 +11,7 @@
 .btn__item {
   margin-right: 8px;
   margin-bottom: 50px;
+  // text-decoration: none;
 }
 
 .btn__item:last-child {
@@ -33,6 +34,7 @@
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
+  text-decoration: none;
 
   color: $title-text-color;
   background-color: $secondary-bg-color;

@@ -852,6 +852,7 @@ footer {
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
+  text-decoration: none;
   color: #212121;
   background-color: #f5f4fa;
   font-weight: 500;
